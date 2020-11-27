@@ -1,4 +1,4 @@
-﻿namespace TimeTac_Libary.Tasks
+﻿namespace TimeTac_Library.Tasks
 {
     public class TaskModel
     {

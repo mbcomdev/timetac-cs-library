@@ -1,7 +1,7 @@
-﻿using TimeTac_Libary.Authentication;
-using TimeTac_Libary.Tasks;
+﻿using TimeTac_Library.Authentication;
+using TimeTac_Library.Tasks;
 
-namespace TimeTac_Libary
+namespace TimeTac_Library
 {
     public class Api
     {
@@ -9,7 +9,7 @@ namespace TimeTac_Libary
         public AuthenticationApi Authentication { get; set; }
         public TaskApi Task { get; set; }
 
-        public Api (ApiConfigModel config)
+        public Api(ApiConfigModel config)
         {
             Config = config;
             Authentication = new AuthenticationApi(config);

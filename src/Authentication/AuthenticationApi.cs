@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace TimeTac_Libary.Authentication
+namespace TimeTac_Library.Authentication
 {
     public class AuthenticationApi : BaseApi
     {

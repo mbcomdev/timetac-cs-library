@@ -1,4 +1,4 @@
-﻿namespace TimeTac_Libary
+﻿namespace TimeTac_Library
 {
     public class ApiConfigModel
     {

@@ -1,5 +1,4 @@
-﻿
-namespace TimeTac_Libary.Utils
+﻿namespace TimeTac_Library.Utils
 {
     public class ApiResponseModel<T>
     {
@@ -8,7 +7,7 @@ namespace TimeTac_Libary.Utils
         public T Results { get; set; }
         public string RequestStartTime { get; set; }
         public string ErrorMessage { get; set; }
-        public ExtendedError? ErrorExtended { get; set; }
+        public ExtendedError ErrorExtended { get; set; }
         public string ErrorInternal { get; set; }
 
     }

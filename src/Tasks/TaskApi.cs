@@ -1,8 +1,8 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
-using TimeTac_Libary.Utils;
+using TimeTac_Library.Utils;
 
-namespace TimeTac_Libary.Tasks
+namespace TimeTac_Library.Tasks
 {
     public class TaskApi : BaseApi
     {

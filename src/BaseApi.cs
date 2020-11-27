@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using TimeTac_Libary.Utils;
+using TimeTac_Library.Utils;
 
-namespace TimeTac_Libary
+namespace TimeTac_Library
 {
     public abstract class BaseApi
     {

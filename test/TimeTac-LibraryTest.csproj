@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TimeTac-Libary\TimeTac-Libary.csproj" />
+    <ProjectReference Include="..\src\TimeTac-Library.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace TimeTac_Libary.Utils
+namespace TimeTac_Library.Utils
 {
     public class ResponseHandler
     {
@@ -63,13 +63,13 @@ namespace TimeTac_Libary.Utils
         public async Task<T> Optional<T>(Task<HttpResponseMessage> task)
         {
             ApiResponseModel<T[]> response = await ToApiResponse<T[]>(task);
-            return (response.NumResults > 0 && response.Results[0] != null) ? response.Results[0] : default;
+            return response.NumResults > 0 && response.Results[0] != null ? response.Results[0] : default;
         }
 
         public async Task<T[]> OptionalList<T>(Task<HttpResponseMessage> task)
         {
             ApiResponseModel<T[]> response = await ToApiResponse<T[]>(task);
-            return (response.NumResults > 0 && response.Results != null) ? response.Results : Array.Empty<T>();
+            return response.NumResults > 0 && response.Results != null ? response.Results : Array.Empty<T>();
         }
     }
 }

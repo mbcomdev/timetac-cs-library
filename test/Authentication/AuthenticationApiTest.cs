@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using System.Threading.Tasks;
-using TimeTac_Libary;
-using TimeTac_Libary.Authentication;
+using TimeTac_Library;
+using TimeTac_Library.Authentication;
 
 namespace TimeTac_LibaryTest.Authentication
 {

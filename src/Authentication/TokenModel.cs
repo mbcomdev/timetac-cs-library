@@ -1,4 +1,4 @@
-﻿namespace TimeTac_Libary.Authentication
+﻿namespace TimeTac_Library.Authentication
 {
     public class TokenModel
     {

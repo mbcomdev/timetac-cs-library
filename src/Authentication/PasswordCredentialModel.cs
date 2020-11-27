@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TimeTac_Libary.Authentication
+namespace TimeTac_Library.Authentication
 {
     public class PasswordCredentialModel
     {
