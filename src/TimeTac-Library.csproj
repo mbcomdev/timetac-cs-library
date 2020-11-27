@@ -1,9 +1,29 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>TimeTac_Library</RootNamespace>
     <OutputType>Library</OutputType>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>TimeTac-CS-Library</PackageId>
+    <Authors>Andreas Punz</Authors>
+    <Company>MBCOM IT-Systemhaus GmbH</Company>
+    <Product>TimeTac-CS-Library</Product>
+    <Copyright>MBCOM IT-Systemhaus GmbH</Copyright>
+    <Description>TimeTac Client Library is a thin wrapper for client to make api request.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/mbcomdev/timetac-cs-library</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mbcomdev/timetac-cs-library</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>timetac, api, api-wrapper, client-library</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
