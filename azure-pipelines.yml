@@ -28,8 +28,9 @@ steps:
   inputs:
     command: 'pack'
     packagesToPack: '**/TimeTac-Library.csproj'
-    nobuild: true
+    nobuild: false
     versioningScheme: 'off'
+    configuration: '$(buildConfiguration)'
 - task: DotNetCoreCLI@2
   inputs:
     command: 'push'
