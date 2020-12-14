@@ -41,7 +41,7 @@ ApiConfigModel config = new ApiConfigModel
 {
   Host = "go.timetac.com",
   Version = 3,
-  Account = "mbcomitsystemhaus"
+  Account = <ACCOUNT_NAME>
 };
 
 Api api = new Api(config);
@@ -53,23 +53,6 @@ PasswordCredentialModel credentials = new PasswordCredentialModel
   Username = <USER_NAME>,
   Password = <PASSWORD>
 };
-import Api from "@timetac/js-client-library"
-
-const environment = {
-  host: 'go.timetac.com',
-  account: <ACCOUNT_NAME>,
-  version: '3'
-}
-
-const authCredentials = {
-  grant_type: 'password',
-  client_id: <CLIENT_ID>,
-  client_secret: <CLIENT_SECRET>,
-  username: <USER_NAME>,
-  password: <PASSWORD>
-}
-
-await api.Authentication.Login(credentials);
 
 TaskModel[] tasks = await api.Task.Read();
 ```
